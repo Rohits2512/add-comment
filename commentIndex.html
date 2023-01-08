@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    
+    <title>Comments</title>
+    <link rel="stylesheet" href="commentStyle.css">
+</head>
+<body>
+    <div class="main-container">
+        <h2>Comments</h2>
+        <div class="comment-box">
+            
+                <label for="username">USERNAME:  </label>
+                <input type="text" name="username" id="username" class="area">
+               
+                <label for="comments" id="clabel">COMMENT: </label>
+                <textarea name="comments" id="comment" class="area"></textarea>
+                <!-- <input type="text" name="comments" class="area"> -->
+              
+                <button id="btn" onclick="addComment()">ADD</button>
+        </div>
+        
+
+        <div class="comment-box1">
+                <div class=""></div>
+        </div>
+        <div class="comment-box2">
+        <!-- <button id="like-btn">
+                <span id="icon"><i class="fa-solid fa-thumbs-up"></i></span>
+                <span id="count">0</span>Like
+            </button> -->
+        </div>
+
+    </div>
+    <script src="comment.js"></script>
+
+
+
+
+</body>
+</html>

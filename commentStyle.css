@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex ;
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    background-size: cover;
+    overflow: hidden;
+}
+   .main-container h2{
+        
+       overflow: hidden;
+       color: rgb(46, 43, 43);
+       font-size: 40px;
+       text-align: center;
+   }
+
+.main-container{
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+.comment-box{
+    margin: 0px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: linear-gradient(rgb(112, 103, 103), rgb(179, 190, 179));
+    width: 900px;
+    height: auto;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    display: block;
+}
+
+
+#username{
+    margin-top: 20px;
+    margin-left: 16px;
+    width: 730px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+#comment{
+    margin-top: 20px;
+    margin-left: 22px;
+    width: 730px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#clabel{
+    margin-top: 32px;
+    display: block;
+    float: left;
+}
+div .comment-box label{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+div .comment-box button{
+    margin: 10px 8px 10px 780px;
+    
+    text-align: center;
+    background-color: green;
+    border-radius: 5px;
+    width: 70px;
+    height: 35px;
+    font-weight: bold;
+    position: static;
+}
+#btn:hover{
+    background-color: rgb(89, 171, 89);
+    cursor: pointer;
+    transition-duration: .4s;
+}
+
+.comment-box2{
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: linear-gradient(rgb(112, 103, 103), rgb(179, 190, 179));
+    width: 900px;
+    height: 350px;
+    display: block;
+    overflow-y: scroll;
+}
+
+/*---------*/
+
+.box1{
+    margin: 10px auto;
+    width: 850px;
+    height: 120px;
+    background-color: azure;
+    border-radius: 5px;
+}
+.boxdata{
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top: 8px;
+}
+#un{
+    font-weight: bold;
+}
+#like{
+	font-size: 20px;
+    float: left;
+    margin-top: 12px;
+}
+#dislike{
+    font-size: 20px;
+    margin-top: 12px;
+}
+i{
+    margin: 0px 10px;
+}
+i:active{
+    color: #004eff;
+    transform: scale(1.2) ;
+}
+#del{
+    float: right;
+    font-size: 20px;
+    color: rgb(161, 21, 21);
+    margin-top: -18px;
+}
+
+#del:hover{
+    cursor: pointer;
+    transition-duration: 0.4s;
+    color: rgba(244, 11, 11, 0.5);
+}
+
+@media screen and (max-width: 900px){
+    .main-container h2{
+        
+        overflow: hidden;
+        color: rgb(46, 43, 43);
+        font-size: 25px;
+        text-align: center;
+    }
+ 
+ .main-container{
+     display: block;
+     width: auto;
+     height: auto;
+     margin: 0px auto;
+     margin-top: 20px;
+ }
+ .comment-box{
+     margin: 0px auto;
+     border: 1px solid black;
+     border-radius: 5px;
+     background: linear-gradient(rgb(112, 103, 103), rgb(179, 190, 179));
+     width: 700px;
+     height: auto;
+     margin-top: 15px;
+     padding-left: 10px;
+     padding-top: 10px;
+     padding-right: 10px;
+     display: block;
+ }
+ #username{
+    margin-top: 20px;
+    margin-left: 16px;
+    width: 500px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+#comment{
+    margin-top: 20px;
+    margin-left: 22px;
+    width: 500px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+}
+div .comment-box button{
+    margin: 10px 8px 10px 780px;
+    
+    text-align: center;
+    background-color: green;
+    border-radius: 5px;
+    width: 40px;
+    height: 25px;
+    font-weight: bold;
+    position: static;
+}
+
+}
